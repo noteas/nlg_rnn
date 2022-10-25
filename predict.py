@@ -17,7 +17,7 @@ if len(sys.argv) <= 2:
 seeds = 42
 #filepath = "data/trumpspeech.txt"
 model_path = "models/"
-model_name = 'm1'
+model_name = 'm1_stateless'
 
 np.random.seed(seeds)
 tf.random.set_seed(seeds)
